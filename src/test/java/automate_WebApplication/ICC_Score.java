@@ -25,6 +25,7 @@ public class ICC_Score
 		driver.findElement(By.xpath("//a[contains(@title,'Women')]")).click();
 		String text = driver.findElement(By.xpath("//div[@class='match-block__team-container']/parent::div[@class='match-block match-block--result t-t20i ']/child::div[3]")).getText();
 	    System.out.println(text);
+	    System.out.println("Meethu");
 	    driver.close();
 	}
 
